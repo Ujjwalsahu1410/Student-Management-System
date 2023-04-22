@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap');
+*{
+    
+    MARGin:0px;
+    padding: 0px;
+    background-color: black; 
+    color:white; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.collegename{
+  position: relative;
+  right: 41.5vw;
+  background-color:white ;
+  color: black;
+  text-shadow: 2PX 1PX 3PX RED;
+  font-size: 25px;
+}
+.header{
+    display:flex;
+    justify-content: end;
+    margin:15px 0; 
+    background-color: white;
+    margin-top:0;
+
+} 
+A{
+    text-decoration: NONE;
+}
+.A{
+    padding: 5px;;
+    color:black; 
+    text-shadow: 2PX 1PX 3PX RED;
+background-color: white;; 
+FONT-SIZE:20PX;
+
+}
+.B{
+    margin:40px; 
+    text-align: center;   
+    overflow:hidden;
+    text-shadow: 2px 4px 2px red;
+}
+
+ .C{ 
+    display:flex; 
+
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+
+ }
+ .btn{
+    
+    width:220px; 
+    padding:3px;
+    margin:20px;
+    height:40px;
+    border-radius: 7px; 
+    margin-right:20px;
+    box-shadow:3px 2px 4px 2px rgb(163, 20, 20) ;
+ }
+ .bt{
+    
+    width:220px;  
+     box-shadow:1px 3px 4px 2px rgb(163, 20, 20) ;
+    padding:3px; 
+    margin:20px; 
+    white-space:nowrap;
+    height:40px;   
+    margin-left:30px;   border-radius: 7px;
+ }  
+ button:hover{
+
+    color:rgb(231, 12, 12);  
+box-shadow: 2px 2px 3px 3px white;
+border:red;
+    background-color:white;
+    color:black;  
+    text-shadow: 1px 2px 5px red;
+    width:230px;
+    font-weight: bold;
+ } 
+ @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  /* Apply the animation to the heading tag */
+  h1 {
+    overflow: hidden;
+    white-space: nowrap; /* Keep the text in one line */
+    margin: 0 auto; /* Center the text */
+    border-right: 3px white;
+    animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
+  } 

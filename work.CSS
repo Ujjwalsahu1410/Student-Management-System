@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contain{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    border: 20vh;
+    height: 10vh;
+    
+}
+body{
+    background-image:url(1552134147747.jpeg) ;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh; 
+    backface-visibility: inherit;
+}
+h2{
+    
+    font-size: 1.5vw;
+    border-top: 2vw;
+    border-bottom: 2vw;
+    padding: 0.5vw;
+    font-family: sans-serif;
+    margin-top: 0.5vw;
+    margin-top: 2vh;
+    text-shadow: 3px red;
+}
+.mod{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    padding: 0.5vw;
+    border: 2vw;
+    margin-top: 1.2vw ;
+}
+.mod select{
+   width: 4vw;
+   height: 3vh;
+}
+.container{
+    border: 5px ;
+    border-style: inset;
+    height: 45vh;
+    width: 35vw;
+    margin-left: 2vw ;
+    position: relative ;
+    top: 20vh;
+    bottom: 30vh;
+    left: 30vw;
+    background-color:grey;
+    opacity: 0.6;
+    color: black;
+    border-color: aquamarine;
+}
+.login{
+    border: 3vh;
+    margin-left: 0.7vw;
+    margin-top: 2vh;
+    margin-bottom: 0.7vh;
+    font-family: 'Roboto';
+    font-size: 3.5vh;
+    position: relative;
+    left: 15vw;
+    color: black;
+}
+input[type=alphanumeric]{
+    border-style:none none solid none;
+    width: 20vw;
+    height: 4vh;
+    font-size: 2.5vh;
+    margin-top: 2vh;
+    color: black;
+}
+.email{
+    border: 5vw;
+    margin-left: 6vw;
+    margin-top: 1.3vh;
+    margin-bottom: 0.7vh;
+    font-family: 'Roboto';
+    font-size: 3.5vh; 
+
+}
+.password{
+    border: 5vw;
+    margin-left: 6vw;
+    margin-top: 1vh;
+    margin-bottom: 0.7vh;
+    font-family: 'Roboto';
+    font-size: 3.5vh; 
+}
+.Signup{
+    border: 5vw;
+    margin-left: 6vw;
+    margin-top: 1vh;
+    margin-bottom: 0.7vh;
+    font-family: 'Roboto';
+    font-size: 2.2vh;
+}
+.log-in{
+    border: 5vw;
+    margin-left: 16vw;
+    margin-top: 1vh;
+    margin-bottom: 0.7vh;
+    font-family: 'Roboto';
+    font-size: 2.5vh;  
+    width: 4vw;
+    height: 4vh;
+    background-color:lightskyblue;
+}
+button{
+    border-radius: 5px;
+}
+.log-in:hover{
+    background-color: darkgray;
+}
+::-moz-placeholder {
+    color: black;
+    opacity: 1;
+  }
+
